@@ -1,0 +1,33 @@
+{
+  "name": "wos-spider",
+  "version": "1.0.0",
+  "description": "Crawl Web of Science via Puppeteer",
+  "main": "index.js",
+  "author": "myl7 <myl@myl.moe> (https://myl.moe)",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/myl7/wos-spider.git"
+  },
+  "keywords": [
+    "wos",
+    "spider",
+    "puppeteer"
+  ],
+  "bugs": {
+    "url": "https://github.com/myl7/wos-spider/issues"
+  },
+  "homepage": "https://github.com/myl7/wos-spider#readme",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write '*.js'",
+    "format:check": "prettier --check '*.js'"
+  },
+  "dependencies": {
+    "puppeteer": "^13.3.2"
+  },
+  "devDependencies": {
+    "prettier": "^2.5.1"
+  }
+}
